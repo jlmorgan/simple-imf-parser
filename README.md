@@ -1,4 +1,4 @@
-# Simple IMF Parser
+# Simple IMF Parser [![Build Status](https://travis-ci.org/jlmorgan/simple-imf-parser.svg)](https://travis-ci.org/jlmorgan/simple-imf-parser)
 
 A **simple** parser of [Internet Message Format](https://tools.ietf.org/html/rfc5322) (IMF) messages using for [nodejs](http://nodejs.org).
 

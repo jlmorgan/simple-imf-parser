@@ -1,0 +1,16 @@
+arbitrary-header: arbitrary-value
+Content-Type: text/plain;
+ charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Subject: IMF Test Message
+Message-ID:  <0123456789abcde0123456789abcde01>
+In-Reply-To: <123456789abcde0123456789abcde010>
+Date: Fri, 21 Nov 2014 13:55:30 +0000
+From: "" <userFrom@host.test>
+Reply-To: "" <userFrom@host.test>
+To: "" <userTo@host.test>
+
+Paragraph one.
+
+Paragraph two.

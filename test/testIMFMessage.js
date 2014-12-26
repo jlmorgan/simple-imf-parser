@@ -2,6 +2,7 @@
 
 // Required node modules
 var expect = require("chai").expect;
+var fs = require("fs");
 
 function testIMFMessage(testContext) {
   it("should return an object", function () {
@@ -39,7 +40,9 @@ function testIMFMessage(testContext) {
   });
 
   it("should contain the message body", function () {
-    var expectedValue = "Paragraph one.\n\nParagraph two.\n";
+    var testFileEncoding = "utf8";
+    var testMessageBody = __dirname + "/fixtures/testMessageBody.txt";
+    var expectedValue = fs.readFileSync(testMessageBody, testFileEncoding);
 
     expect(testContext.body).to.be.equal(expectedValue);
   });

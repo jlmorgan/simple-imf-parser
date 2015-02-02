@@ -5,7 +5,7 @@
   "author": "Justin Morgan <justin.l.morgan@gmail.com>",
   "license": "MIT",
   "main": "./index",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/jlmorgan/simple-imf-parser"
@@ -14,7 +14,7 @@
     "url": "https://github.com/jlmorgan/simple-imf-parser/issues"
   },
   "dependencies": {
-    "lodash": "~2.4.0"
+    "lodash": "~3.0.0"
   },
   "devDependencies": {
     "chai": "~1.9.1",
